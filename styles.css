@@ -16,7 +16,7 @@ body {
 /* CARD */
 
 .card {
-    width: 50%;
+    width: 90%;
     text-align: center;
     background-color: hsl(217, 19%, 24%);
     padding: 30px;
@@ -25,6 +25,7 @@ body {
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
+    max-width: 50rem;
 }
 
 .card .id {
@@ -54,6 +55,7 @@ body {
     align-items: center;
     cursor: pointer;
     margin: 0 0 -63px 0;
+    border: none;
 }
 
 .card .change:hover {
